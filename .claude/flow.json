@@ -1,9 +1,27 @@
 {
   "docsRoot": "docs",
-  "state": { "store": "shared" },
-  "tracker": { "kind": "none", "repo": null, "epicLabel": "epic", "storyLabels": [], "readyLabel": null },
-  "branch": { "prefix": "feat/", "base": "main" },
+  "state": {
+    "store": "shared"
+  },
+  "tracker": {
+    "kind": "none",
+    "repo": null,
+    "epicLabel": "epic",
+    "storyLabels": [],
+    "readyLabel": null
+  },
+  "branch": {
+    "prefix": "feat/",
+    "base": "main"
+  },
   "evidence": [],
   "actor": "human:aleix-canet",
-  "review": { "sensitive": [] }
+  "review": {
+    "sensitive": []
+  },
+  "commands": {
+    "test": "sh check.sh",
+    "lint": "sh check.sh",
+    "typecheck": "sh check.sh"
+  }
 }
