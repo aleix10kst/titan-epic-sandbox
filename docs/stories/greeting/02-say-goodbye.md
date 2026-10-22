@@ -18,5 +18,5 @@ As a reader, I want a goodbye file, so that the repository feels friendly.
 
 # Acceptance criteria
 
-- [ ] **AC-1** Given the repository, when a reader opens `greetings/goodbye.txt`, then it contains exactly one line: `Goodbye from Titan`.
-- [ ] **AC-2** Given the repository, when `sh check.sh` runs, then it exits 0.
+- [x] **AC-1** Given the repository, when a reader opens `greetings/goodbye.txt`, then it contains exactly one line: `Goodbye from Titan`.
+- [x] **AC-2** Given the repository, when `sh check.sh` runs, then it exits 0.
